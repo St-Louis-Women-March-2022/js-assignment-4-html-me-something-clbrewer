@@ -1,1 +1,55 @@
-/* Write your CSS here! */
+body {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+h1 {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 42pt;
+}
+
+h2 {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 32pt;
+}
+
+h3 {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 26pt;
+}
+
+
+nav ul {
+   text-align: center;
+   padding: 0;
+   font-size: 20pt
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Calibri';
+       
+}
+
+article {
+    padding-left: 25px;
+    font-family: 'Calibri';
+    font-size: 14pt;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 12pt;
+}
+
+
