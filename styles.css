@@ -1,26 +1,54 @@
+figure {
+    display: inline-block;
+    margin: auto
+    
+}
+    
 body {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 75px;
     margin-right: 75px;
+    background-color: black;
+}
+
+header,
+main,
+footer {
+    background-color: aquamarine;
 }
 
 h1 {
+    font-family: Cambria;
+    text-align: left;
+    font-size: 42pt;
+    padding-left: 25px
+}
+
+h2 {
+    font-family: Calibri;
+    text-align: left;
+    font-size: 32pt;
+}
+
+h3 {
     font-family: Cambria;
     text-align: center;
     font-size: 42pt;
 }
 
-h2 {
+h4 {
     font-family: Calibri;
     text-align: center;
     font-size: 32pt;
+
 }
 
-h3 {
-    font-family: Calibri;
+
+figcaption {
+    font-style: italic;
     text-align: center;
-    font-size: 26pt;
+    font-size: 12pt;
 }
 
 
@@ -37,19 +65,12 @@ nav ul li {
 }
 
 article {
-    padding-left: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: 'Calibri';
     font-size: 14pt;
 }
 
-figure {
-    display: inline-block;
-    text-align: center;
-}
 
-figcaption {
-    font-style: italic;
-    font-size: 12pt;
-}
 
 
