@@ -1,6 +1,6 @@
 figure {
     display: inline-block;
-    margin: auto
+    margin-left: 25px
     
 }
     
@@ -9,20 +9,21 @@ body {
     margin-bottom: 25px;
     margin-left: 75px;
     margin-right: 75px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.425);
 }
 
 header,
 main,
 footer {
-    background-color: aquamarine;
+    background-color: rgb(216, 216, 216);
 }
 
 h1 {
     font-family: Cambria;
     text-align: left;
     font-size: 42pt;
-    padding-left: 25px
+    padding-left: 25px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -35,6 +36,7 @@ h3 {
     font-family: Cambria;
     text-align: center;
     font-size: 42pt;
+    color: red;
 }
 
 h4 {
@@ -71,6 +73,12 @@ article {
     font-size: 14pt;
 }
 
+footer {
+    text-align: center;
+}
 
+p {
+    color:rgb(100, 100, 100)
+}
 
 
