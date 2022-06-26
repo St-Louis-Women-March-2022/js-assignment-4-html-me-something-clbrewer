@@ -1,1 +1,86 @@
-/* Write your CSS here! */
+figure {
+    display: inline-block;
+    margin-left: 25px
+    
+}
+    
+body {
+    margin: 8px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+header,
+main,
+footer {
+    background-color: rgb(216, 216, 216);
+}
+
+h1 {
+    font-family: Cambria;
+    text-align: left;
+    font-size: 42pt;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: Calibri;
+    text-align: left;
+    font-size: 32pt;
+}
+
+#mainHeading {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 42pt;
+    color: red;
+}
+
+h4 {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 32pt;
+
+}
+
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 12pt;
+}
+
+
+nav ul {
+   text-align: center;
+   padding: 0;
+   font-size: 20pt
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Calibri';
+       
+}
+
+article {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Calibri';
+    font-size: 14pt;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    color:rgb(100, 100, 100)
+}
+
+.funParagraph {
+    color: green;
+}
+
+
